@@ -125,7 +125,7 @@
     width: 1320px;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    
 }
 
 .holydayText {
@@ -160,4 +160,86 @@
     position: absolute;
     left: 90%;
     bottom: 44%;
+}
+
+/* section 6 */
+
+
+/* section 7 */
+.subscribeSection{
+    margin: 60px auto;
+    width: 1320px;
+    height: 482px;
+    background-color: #FF00000D;
+    border-radius: 15px;
+
+}
+
+.subscribeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeText{
+    text-align: center;
+}
+
+.input{
+    background-color: white;
+    padding: 10px 90px;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    color:black ;
+    
+}
+
+.inputDiv{
+    margin-top: 40px;
+}
+
+
+/* section 8 */
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: center;
+}
+
+.contactIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactIcon img{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0 ;
+    
+}
+
+.footer{
+    background-color: black;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.socialIcons img{
+    margin-right: 15px;
+}
+
+.copyright{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.horizental{
+    width: 1300px;
 }
