@@ -1,15 +1,16 @@
+/* section 1 */
+.bannerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-.bannerSection{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-  
 }
 
-.bannerImg{
+.bannerImg {
     position: relative;
 }
-.imgText{
+
+.imgText {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,62 +19,102 @@
     color: white;
 }
 
-.imgText h3{
+.imgText h3 {
     font-size: 32px;
-   
+
 }
 
-.imgText h1{
+.imgText h1 {
     font-size: 72px;
 }
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.3); 
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
 
 /* section 2 */
-.offerText{
+.offerText {
     text-align: center;
 }
 
-.offerPost{
+.offerPost {
     margin-top: 60px;
 }
 
-.partyImg{
-position: relative;
+/* section 3 */
+.partyImgDiv {
+    position: relative;
+
 }
 
-.partyText{
-position: absolute;
-top: 50%;
-left: 10%;
-color: aliceblue;
+
+
+.partyText {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: aliceblue;
 }
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Adjust the darkness level */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+
 }
 
-.partySection{
+.partySection {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 60px 0 0 0;
 }
 
-.newYearImg{
+.newYearImg {
     position: absolute;
     top: 15%;
-left: 65%;
+    left: 65%;
+}
+
+
+/* section 4 */
+.locationAndTime {
+    margin: 60px auto;
+    width: 1320px;
+    height: 482px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.locationText{
+
+}
+
+.wishBanner {
+    display: flex;
+    margin: 60px auto;
+    width: 1320px;
+    justify-content: space-between;
+    height: 482px;
+}
+
+.enjoyImg{
+    padding: 20px;
+    border: 5px solid red;
+    border-radius: 50%;
 }
